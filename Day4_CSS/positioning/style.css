@@ -1,0 +1,33 @@
+/* Relative: relative to original position */
+.relative{
+    background-color: cadetblue;
+    position: relative;
+    /* need to set location for position to kick in */
+    top: 0px;
+    left: 0px
+}
+
+/* Absolute: relative to the parents container */
+.absolute{
+    background-color: orange;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* Fixed: relative to page, position is fixed no matter how we scroll  */
+.fixed{
+    background-color: pink;
+    position: fixed;
+    top: 50px;
+    left: 30px;
+
+}
+
+/*  */
+.sticky{
+    background-color: skyblue;
+    position: sticky;
+    top:0;
+
+}

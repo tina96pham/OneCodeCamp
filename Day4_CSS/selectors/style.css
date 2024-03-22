@@ -1,0 +1,51 @@
+/* element slector setting for <span> DO NOT USE THE DOT */
+span{
+    background-color: green;
+    color: white;
+    font-size: 18px;
+}
+
+/* setting for class selector: Use "." */
+.class-name{
+    color:red;
+    background-color: pink;
+}
+
+/* setting for id selector : Use "#" */
+#id-name{
+    font-weight: bold;
+}
+
+/* Setting for Universal slector which set styling for evrything: Use "*" */
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Setting Attribute selector: a[href="<specific link>" */
+a[href="https://www.google.com/"]
+{
+    text-decoration: none;
+}
+
+/* Grouping selector setiing for multiple element */
+h1,
+h2,
+.parag{
+    color: orange
+}
+
+/* Descendant selector setting */
+.ancestor p {
+    font-style: italic;
+    color:green;
+}
+
+/* setting attribute with class name "link". Hover setting mean once click the */
+a.link:hover {
+    color: red;
+}
+
+/*  */
+p::first-letter {
+    font-size: 150%;
+}
