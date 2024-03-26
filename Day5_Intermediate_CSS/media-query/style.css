@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: blanchedalmond; */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    margin: 0;
+}
+
+section {
+    padding: 50px;
+    background-color: #f1f1f1;
+}
+
+footer {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0;
+}
+  
+/* Break points for Responsive Design */
+/* <481px- Mobile DEvices */
+/* 481px - 768px- Tablets */
+/* 769px-1024px- Laptop or Small Screen */
+/* 1025px-1200px - Desktop, Large Screen */
+/* >1201px Extra Large SCreen TV */
+
+/* Mobile Devices */
+@media screen and (max-width: 480px) {
+    h1 { 
+        color: blue;
+    }
+}
+
+/* Ipad, Tablet */
+@media screen and (min-width: 480px) and(max-width:768px){
+    h1 { 
+        color: red;
+    }
+}
+
+/* 1025px-1200px - Desktop, Large Screen */
+@media only screen and (min-width : 1025px) and (max-width : 1200px) {
+    h1{
+        color: purple;
+    } 
+}        
+
+/* >1201px Extra Large SCreen TV */
+@media only screen and (min-width : 1200px) {
+    h1{
+        color: rgb(0, 128, 21);
+    } 
+}        
+
+@media (orientation:landscape){
+    header{
+        background-color: aqua;
+    }
+}
+
+@media (orientation:portrait){
+    header{
+        background-color: lightblue;
+    }
+}

@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    /* Center Horizontally */
+    justify-content: center;
+    /*  Center Vertically */
+    align-items:center;
+}
+
+.grid-container{
+    display: grid;
+    place-items: center;
+}
+
+.individual-item {
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,59 @@
+/* USing px */
+/* .gridContainer{
+  display: grid;
+  grid-template-columns: 300px 100px 100px;
+  grid-template-rows: 300px 200px;
+
+} */
+
+
+/* Using auto */
+/* .gridContainer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+} */
+
+
+/* Using fraction: more control using fraction */
+/* .gridContainer{
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}  */
+
+
+/* Using percentage */
+/* .gridContainer{
+  display: grid;
+  grid-template-columns: 50% 30% 20% 10%;
+}  */
+
+
+
+/* Using repeat */
+/* .gridContainer{
+  display: grid;
+  grid-template-columns:  repeat(4, 1fr);
+} */
+
+/* Using gap */
+/* .gridContainer{
+  display: grid;
+  grid-template-columns:  repeat(4, 1fr);
+  grid-gap: 10px;
+} */
+
+/* Using grid card */
+.gridContainer{
+  display: grid;
+  grid-template-columns:  repeat(4, 1fr);
+} 
+.gridItem1{
+  grid-area: 1/2/3/4;
+}
+/* 
+row start
+column start
+row end
+column end */
+

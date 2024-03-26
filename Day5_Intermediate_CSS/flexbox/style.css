@@ -1,0 +1,47 @@
+/* Adding spaces between the content */
+/* .flexContainer {
+    display: flex;
+    flex-direction: row;
+     justify-content: center; 
+    justify-content: space-evenly; 
+} */
+
+/* Flex Wrap */
+/* .flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* Stretch */
+/* .flexContainer {
+    display: flex;
+    align-items: stretch;
+} */
+
+/* Flex grow */
+/* .flexContainer {
+    display: flex;
+}
+.flexItem1{
+    flex-grow: 2;
+}
+.flexItem2{
+    flex-grow: 0;
+}
+.flexItem3{
+    flex-grow: 1;
+} */
+
+/* Flex shrink */
+.flexContainer {
+    display: flex;
+}
+.flexItem1{
+    flex-shrink: 0;
+}
+.flexItem2{
+    flex-shrink: 2;
+}
+.flexItem3{
+    flex-shrink: 1;
+}
